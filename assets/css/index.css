@@ -25,19 +25,26 @@ body {
   align-items: center;
   justify-content: center;
   /* gap: 10vh; */
-  border: 3px solid #dddddd;
+  /* border: 3px solid #dddddd; */
   background-color: #f4f4f2;
   aspect-ratio: 1/1.5;
   padding: 3vh;
   width: 32vh;
   border-radius: 2vh;
-  box-shadow: 0px 0px 10px #e0dede;
+  /* box-shadow: 0px 0px 10px #e0dede; */
 }
 
 .card img {
   width: 10vh;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   margin-top: 5vh;
+}
+
+.card p {
+  margin-bottom: 2vh;
+  font-size: 2.4vh;
+  font-weight: 800;
+  color: #393e46;
 }
 
 form {
@@ -54,22 +61,26 @@ input {
   width: 30vh;
   padding: 0.5vh;
   border-radius: 1vh;
-  border: 3px solid #dddddd;
+  border: 0.4vh solid #dddddd;
   color: #393e46;
   background-color: #f7f6f2;
 }
 
 input:focus {
-  outline: 3px solid #3584e4;
+  outline: 0.4vh solid #3584e4;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 0px #e0dede;
 }
 
 input[type="submit"] {
   height: 7vh;
   font-weight: 700;
   color: #3584e4;
-  border: 3px solid #3584e4;
+  border: 0.5vh solid #3584e4;
   width: 20vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
 .more {
@@ -84,6 +95,18 @@ input[type="submit"] {
   text-decoration: none;
   color: #3584e4;
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2vh;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other img {
+  margin: 0px;
+  width: 30px;
 }
